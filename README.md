@@ -1,3 +1,2 @@
-# README
-
-* Stuff goes here
+# First-Assignment
+My first assignment for Coder academy
