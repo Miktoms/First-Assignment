@@ -20,11 +20,14 @@ Personal Information
 3. Date of Birth (This will populate a function used to determine if it is anyone's birthday on the tour selected)
 4. Gender
 5. What Country is home
-6. Dietary Requirements 	
-   - Yes/No
-     - ​	If Yes ask What is the requirement, if no, we don't need any further information.
+6. email
+7. Dietary Requirements 
 
-Free text
+   - ​	If Yes ask What is the requirement.
+   -  if no, we don't need any further information.
+8. ​	
+   - - 
+     - Free text
 
 1. 
 

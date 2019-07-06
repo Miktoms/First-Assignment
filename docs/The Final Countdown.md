@@ -1,10 +1,22 @@
 # Software Development Plan
 
-More Actions**Statement of Purpose and Scope**  T1A2-1**Develop** a statement of **purpose** and **scope** for your application. It must include: - **describe** at a high level what the application will do - **identify** the problem it will solve and **explain** why you are developing it - **identify** the target audience  - **explain** how a member of the target audience will use it  Glossary **Describe** means to provide detail. **Identify** means to make a statement or name something. **Explain** means to provide detailed reasons/information relating to why or how something works300 - 500 words.  Please include this in your **software development plan** as a separate section with an appropriate heading.CMP1041-3.1
+# Tour Guiding Sign in App
 
-  300 - 500 words.
+Michael Toms 27/06/2019
 
-Please include this in your **software development plan** as a separate section with an appropriate heading.  
+## Purpose of the App:
+
+The Application is designed to capture details of tour members before they start the tour and display that information to the organisers so that problems can be avoided and opportunities to engage with the customers can be maximised. 
+
+By capturing this information before the tour is booked this reduces the time spent by tour employees entering customer details into the tour management system. The information will help inform the tour guide and organisers of details required to make the tour as seamless and accommodating as possible. 
+
+When booking the tour International Tourists and locals wanting a day trip will be asked to supply the information through the website of the company.
+
+
+
+Need to expand by 200 words
+
+
 
 
 
@@ -18,9 +30,13 @@ Please include this in your **software development plan** as a separate section 
 
 ### Customer Enters name:
 
-### Def: get_name
+### Def get_name
 
-Captures the tourists name as a variable for use in the program on the tour and also for reference in the future. It is captured by a input command and made into a Global variable by being returned to the program called "name"
+Captures the tourists name as a variable for use in the program, on the tour and also for reference in the future. It is captured by a input command and made into a Global variable by being returned to the program called "name".
+
+### def get greeting
+
+By taking the return "name" from **Def get_name** and making "response" a string including "name" and returning "response" I am able to test the logic without the input.
 
 ### Def: allergy
 
@@ -51,6 +67,34 @@ So that any food allergy is captured any answer except N will cause the program 
 | **User Interaction and Experience** |                                                              |                                                              |                          |
 | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------ |
 | T1A2-4                              | **Develop** an **outline** of the user interaction and experience for the application. Your outline must include: - how the user will find out how to interact/use each feature - how the user will interact/use each feature - how errors will be handled by the application and displayed to the user | Please include this in your **software development plan** as a separate section with an appropriate heading. | CMP1041-2.1, CMP1041-2.3 |
+
+## User Interaction and Experience
+
+Once the user has cloned the Git Repo https://github.com/Miktoms/First-Assignment.git they will need to be in the folder;
+
+##### mnt/c/Projects/Assesments/Assessment 1 Plan and Implement a Terminal Application/src
+
+Once there the command they will need to enter is; 
+
+###### python3 app.py 
+
+to run the program.
+
+Once the program is running the program will ask a question of the user and the user will type their answerto the right of the question.
+
+The program will then display another line for either:
+
+
+
+If the input is outside of the scope of the program and/or is an error that the program can't process a prompt will display a prompt being more specific about the details required for the answer to be calculated.
+
+For the allergy 
+
+The user would access the app through the website after choosing the Tour they were interested in and completing the earlier parts of the *Tour Sign Up* process which would lead them to 
+
+
+
+
 
 
 
@@ -88,10 +132,6 @@ Feature; Priority; deadline
 
 
 
-
-
-
-
 | -10  | **Design** a help file which includes a set of instructions which accurately **describe**how to use and install the application.   You must include: - steps to install the application - any dependencies required by the application to operate - any system/hardware requirements - a written explanation of the different features of the application | The help file should be 100 - 200 words. | CMP1041-4.2 |
 | ---- | ------------------------------------------------------------ | ---------------------------------------- | ----------- |
 |      |                                                              |                                          |             |
@@ -107,3 +147,17 @@ recorded in Readme
 | T1A2-11              | **Design** TWO tests which check that the application is running as expected.   Each test should: - cover a different feature of the application - state what is being tested - provide at least TWO test cases and the expected results for each test case  An **outline** of the testing procedure and cases should be included with the source code of the application and written in markdown. |      | CMP1041-4.1 |
 
 Explain the test cases
+
+
+
+
+
+
+
+How to link an image
+
+```markdown
+![](./Images/Michael Toms Terminal App Diagram.png)
+```
+
+! []

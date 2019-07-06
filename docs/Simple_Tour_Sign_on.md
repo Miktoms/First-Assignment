@@ -34,7 +34,7 @@ The Application is designed to capture details of tour members before they start
 
 
 
-
+  <u>\- **identify** the target audience</u> 
 
 ## Target Audience
 
@@ -42,3 +42,10 @@ The Application is designed to capture details of tour members before they start
 
 
 
+
+\<u>- **explain** how a member of the target audience will use it</u>
+
+<u>Glossary</u>
+<u>**Describe** means to provide detail.</u>
+<u>**Identify** means to make a statement or name something.</u>
+<u>**Explain** means to provide detailed reasons/information relating to why or how something works</u>  
